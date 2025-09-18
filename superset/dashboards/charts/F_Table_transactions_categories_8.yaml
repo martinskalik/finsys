@@ -1,0 +1,66 @@
+slice_name: '[F] Table transactions categories'
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 1__table
+  viz_type: table
+  slice_id: 36
+  query_mode: aggregate
+  groupby:
+  - category
+  temporal_columns_lookup:
+    date: true
+  metrics:
+  - aggregate: null
+    column: null
+    datasourceWarning: false
+    expressionType: SQL
+    hasCustomLabel: true
+    label: amount
+    optionName: metric_b972bnv97z6_kvwhb6yolyl
+    sqlExpression: abs(sum(amount))
+  all_columns: []
+  percent_metrics: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_6x0iak8am1g_go6jzy1fmrl
+    isExtra: false
+    isNew: false
+    operator: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: date
+  - clause: WHERE
+    comparator: true
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_u5ml6rk21tl_xflszsnz3kr
+    isExtra: false
+    isNew: false
+    operator: ==
+    operatorId: IS_TRUE
+    sqlExpression: null
+    subject: is_outgoing
+  order_by_cols: []
+  row_limit: 1000
+  order_desc: true
+  table_timestamp_format: smart_date
+  show_cell_bars: true
+  color_pn: true
+  column_config:
+    amount:
+      d3NumberFormat: ',d'
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 8
+  annotation_layers: []
+query_context: null
+cache_timeout: null
+uuid: 7eb915df-dbce-471e-a2a2-0e7772f2ec17
+version: 1.0.0
+dataset_uuid: 5cdc7831-6ce0-4f72-8e85-d87c2ebae997

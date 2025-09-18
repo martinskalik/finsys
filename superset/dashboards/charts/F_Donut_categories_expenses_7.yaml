@@ -1,0 +1,66 @@
+slice_name: '[F] Donut categories expenses'
+description: null
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  datasource: 1__table
+  viz_type: pie
+  groupby:
+  - category
+  metric:
+    expressionType: SQL
+    sqlExpression: abs(sum(amount))
+    column: null
+    aggregate: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: abs(sum(amount))
+    optionName: metric_rmh0p8id1xa_6ojrxd2e3v9
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: date
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_nkygrdtnmyl_nzbehoc8m6b
+  - expressionType: SIMPLE
+    subject: is_outgoing
+    operator: ==
+    operatorId: IS_TRUE
+    comparator: true
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_8iey8rexy0j_nqat4ab0cxp
+  row_limit: 100
+  sort_by_metric: true
+  color_scheme: supersetColors
+  show_labels_threshold: 2
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  label_type: key_value_percent
+  number_format: ',d'
+  date_format: smart_date
+  show_labels: true
+  labels_outside: true
+  label_line: true
+  outerRadius: 70
+  donut: true
+  innerRadius: 30
+  extra_form_data: {}
+  dashboards:
+  - 8
+  annotation_layers: []
+query_context: null
+cache_timeout: null
+uuid: 1597f697-a18e-4169-938b-4da0500524f7
+version: 1.0.0
+dataset_uuid: 5cdc7831-6ce0-4f72-8e85-d87c2ebae997

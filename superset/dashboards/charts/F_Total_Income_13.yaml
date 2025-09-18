@@ -1,0 +1,47 @@
+slice_name: '[F] Total Income'
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number_total
+params:
+  datasource: 1__table
+  viz_type: big_number_total
+  slice_id: 13
+  metric: amount
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_4qmvjtwyfv_ngx9razgsso
+    isExtra: false
+    isNew: false
+    operator: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: date
+  - clause: WHERE
+    comparator: false
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_bn3r8w6u9h9_t6ay9mrwm2
+    isExtra: false
+    isNew: false
+    operator: ==
+    operatorId: IS_FALSE
+    sqlExpression: null
+    subject: is_outgoing
+  subheader: Income
+  header_font_size: 0.4
+  subheader_font_size: 0.15
+  y_axis_format: +,
+  time_format: smart_date
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 1
+  annotation_layers: []
+query_context: null
+cache_timeout: null
+uuid: 3f0e0302-efa7-4da1-91ea-89273e2b49af
+version: 1.0.0
+dataset_uuid: 5cdc7831-6ce0-4f72-8e85-d87c2ebae997

@@ -1,0 +1,47 @@
+slice_name: '[F] Total Expense'
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number_total
+params:
+  datasource: 1__table
+  viz_type: big_number_total
+  slice_id: 14
+  metric: amount
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_4bfpf9jvibn_i05lld376g
+    isExtra: false
+    isNew: false
+    operator: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: date
+  - clause: WHERE
+    comparator: true
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_xrkef11g2e_nmlxwnab1y
+    isExtra: false
+    isNew: false
+    operator: ==
+    operatorId: IS_TRUE
+    sqlExpression: null
+    subject: is_outgoing
+  subheader: Expenses
+  header_font_size: 0.4
+  subheader_font_size: 0.15
+  y_axis_format: +,
+  time_format: smart_date
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 1
+  annotation_layers: []
+query_context: null
+cache_timeout: null
+uuid: 64ead7eb-cef9-4cbd-ae69-6fa462624234
+version: 1.0.0
+dataset_uuid: 5cdc7831-6ce0-4f72-8e85-d87c2ebae997

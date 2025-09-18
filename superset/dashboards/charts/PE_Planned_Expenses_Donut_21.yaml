@@ -1,0 +1,45 @@
+slice_name: '[PE] Planned Expenses Donut'
+description: null
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  datasource: 3__table
+  viz_type: pie
+  slice_id: 47
+  groupby:
+  - id
+  - name
+  metric: amount
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: updatedAt
+  row_limit: 100
+  sort_by_metric: true
+  color_scheme: supersetColors
+  show_labels_threshold: 2
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  label_type: key_value_percent
+  number_format: SMART_NUMBER
+  date_format: smart_date
+  show_labels: true
+  labels_outside: true
+  label_line: true
+  show_total: false
+  outerRadius: 66
+  donut: true
+  innerRadius: 39
+  extra_form_data: {}
+  dashboards:
+  - 9
+  annotation_layers: []
+query_context: null
+cache_timeout: null
+uuid: f4ceadd7-6cfc-4aa6-adbb-133192773597
+version: 1.0.0
+dataset_uuid: cecdcff3-d120-492e-b994-d1119cbf37e8

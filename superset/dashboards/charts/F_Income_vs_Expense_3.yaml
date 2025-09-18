@@ -1,0 +1,69 @@
+slice_name: '[F] Income vs Expense'
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_bar
+params:
+  datasource: 1__table
+  viz_type: echarts_timeseries_bar
+  slice_id: 3
+  x_axis: date
+  time_grain_sqla: P1M
+  metrics:
+  - aggregate: null
+    column: null
+    datasourceWarning: false
+    expressionType: SQL
+    hasCustomLabel: false
+    label: abs(sum(amount))
+    optionName: metric_lm904qsahv_al3hm96dhjp
+    sqlExpression: abs(sum(amount))
+  groupby:
+  - label: is_outgoing
+    sqlExpression: "Cast(Case \n            When is_outgoing=True Then 'Outcoming'\
+      \ \n            ELse 'Incoming' END \n        AS Varchar(256))"
+    expressionType: SQL
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_uxuu6utsjcs_gpboo0ebm48
+    isExtra: true
+    isNew: false
+    operator: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: date
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  orientation: vertical
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  sort_series_type: sum
+  color_scheme: supersetColors
+  only_total: true
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  y_axis_format: SMART_NUMBER
+  truncateXAxis: true
+  y_axis_bounds:
+  - null
+  - null
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  extra_form_data: {}
+  dashboards:
+  - 1
+query_context: null
+cache_timeout: null
+uuid: b707c2b9-fa4a-4a00-8cc0-cddc90dc6820
+version: 1.0.0
+dataset_uuid: 5cdc7831-6ce0-4f72-8e85-d87c2ebae997

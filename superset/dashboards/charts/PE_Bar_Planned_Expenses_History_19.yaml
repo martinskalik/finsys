@@ -1,0 +1,54 @@
+slice_name: '[PE] Bar Planned Expenses History'
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_timeseries_bar
+params:
+  datasource: 4__table
+  viz_type: echarts_timeseries_bar
+  slice_id: 45
+  x_axis: current_month
+  time_grain_sqla: P1M
+  metrics:
+  - amount
+  groupby:
+  - category
+  contributionMode: null
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: current_month
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  orientation: vertical
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  sort_series_type: sum
+  color_scheme: supersetColors
+  show_value: true
+  stack: Stack
+  only_total: true
+  minorTicks: false
+  zoomable: false
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  y_axis_format: ',d'
+  truncateXAxis: true
+  rich_tooltip: true
+  tooltipTimeFormat: smart_date
+  extra_form_data: {}
+  dashboards:
+  - 9
+query_context: null
+cache_timeout: null
+uuid: 8591dbdb-3ea6-4846-957d-822fc39b22ec
+version: 1.0.0
+dataset_uuid: 9f2c5ada-ad2b-4788-8217-47d398a62c66

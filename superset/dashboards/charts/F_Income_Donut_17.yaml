@@ -1,0 +1,59 @@
+slice_name: '[F] Income Donut'
+description: null
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  datasource: 1__table
+  viz_type: pie
+  slice_id: 22
+  groupby:
+  - category
+  metric: amount
+  adhoc_filters:
+  - expressionType: SIMPLE
+    subject: date
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_wwp65ox70aa_0q0p5ijdioy
+  - expressionType: SIMPLE
+    subject: type
+    operator: IN
+    operatorId: IN
+    comparator:
+    - Income
+    clause: WHERE
+    sqlExpression: null
+    isExtra: false
+    isNew: false
+    datasourceWarning: false
+    filterOptionName: filter_koxqrll9aso_ckn17ap5mnt
+  row_limit: 100
+  sort_by_metric: true
+  color_scheme: supersetColors
+  show_labels_threshold: 5
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  label_type: key
+  number_format: SMART_NUMBER
+  date_format: smart_date
+  show_labels: true
+  labels_outside: true
+  outerRadius: 70
+  donut: true
+  innerRadius: 30
+  extra_form_data: {}
+  dashboards:
+  - 1
+  annotation_layers: []
+query_context: null
+cache_timeout: null
+uuid: 2a702e45-eb91-4190-92de-01764c1b41b1
+version: 1.0.0
+dataset_uuid: 5cdc7831-6ce0-4f72-8e85-d87c2ebae997

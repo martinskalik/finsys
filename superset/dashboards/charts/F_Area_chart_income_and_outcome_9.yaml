@@ -1,0 +1,72 @@
+slice_name: '[F] Area chart income and outcome'
+description: null
+certified_by: null
+certification_details: null
+viz_type: echarts_area
+params:
+  datasource: 1__table
+  viz_type: echarts_area
+  slice_id: 37
+  x_axis: date
+  time_grain_sqla: P1M
+  metrics:
+  - aggregate: null
+    column: null
+    datasourceWarning: false
+    expressionType: SQL
+    hasCustomLabel: false
+    label: abs(sum(amount))
+    optionName: metric_a1c1x956r5o_ibnay8cxzo
+    sqlExpression: abs(sum(amount))
+  groupby:
+  - label: is_outgoing
+    sqlExpression: "Cast(Case \n            When is_outgoing=True Then 'V\xFDdaje'\
+      \ \n            ELse 'P\u0159\xEDjmy' END \n        AS Varchar(256))"
+    expressionType: SQL
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: date
+  row_limit: 10000
+  truncate_metric: true
+  show_empty_columns: true
+  comparison_type: values
+  annotation_layers: []
+  forecastPeriods: 10
+  forecastInterval: 0.8
+  x_axis_title_margin: 15
+  y_axis_title_margin: 15
+  y_axis_title_position: Left
+  sort_series_type: sum
+  color_scheme: supersetColors
+  seriesType: line
+  opacity: 0.2
+  stack: null
+  only_total: true
+  show_extra_controls: false
+  markerEnabled: true
+  markerSize: 7
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  x_axis_time_format: smart_date
+  rich_tooltip: true
+  tooltipSortByMetric: false
+  tooltipTimeFormat: smart_date
+  y_axis_format: ',d'
+  logAxis: false
+  minorSplitLine: false
+  truncateXAxis: true
+  y_axis_bounds:
+  - null
+  - null
+  extra_form_data: {}
+  dashboards:
+  - 8
+query_context: null
+cache_timeout: null
+uuid: 077e1c18-abe5-4882-97a5-c39e3dd1ce81
+version: 1.0.0
+dataset_uuid: 5cdc7831-6ce0-4f72-8e85-d87c2ebae997

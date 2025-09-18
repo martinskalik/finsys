@@ -1,0 +1,413 @@
+dashboard_title: Planned expenses
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: false
+uuid: 6625c526-a106-4f07-88f6-fac3e801f723
+position:
+  CHART-explore-45-1:
+    children: []
+    id: CHART-explore-45-1
+    meta:
+      chartId: 19
+      height: 54
+      sliceName: '[PE] Bar chart'
+      uuid: 8591dbdb-3ea6-4846-957d-822fc39b22ec
+      width: 12
+    parents:
+    - ROOT_ID
+    - TABS-CUAtNfOMt6
+    - TAB-Zh_UzBzPs
+    - ROW-JHc0qavK3
+    type: CHART
+  CHART-explore-46-1:
+    children: []
+    id: CHART-explore-46-1
+    meta:
+      chartId: 20
+      height: 86
+      sliceName: '[PE] Table planned expenses'
+      uuid: 02fed644-94c3-4189-bc44-be669f68169b
+      width: 8
+    parents:
+    - ROOT_ID
+    - TABS-CUAtNfOMt6
+    - TAB-3XXKMtUwE3
+    - ROW-iFHtjnTIf
+    type: CHART
+  CHART-explore-47-1:
+    children: []
+    id: CHART-explore-47-1
+    meta:
+      chartId: 21
+      height: 38
+      sliceName: '[PE] Donut chart'
+      uuid: f4ceadd7-6cfc-4aa6-adbb-133192773597
+      width: 7
+    parents:
+    - ROOT_ID
+    - TABS-CUAtNfOMt6
+    - TAB-3XXKMtUwE3
+    - ROW-uYdC2ComX
+    type: CHART
+  CHART-explore-48-1:
+    children: []
+    id: CHART-explore-48-1
+    meta:
+      chartId: 22
+      height: 38
+      sliceName: '[PE] Number with trendline'
+      uuid: d241296b-1f8b-4bfe-ad5d-4c667a2dd346
+      width: 5
+    parents:
+    - ROOT_ID
+    - TABS-CUAtNfOMt6
+    - TAB-3XXKMtUwE3
+    - ROW-uYdC2ComX
+    type: CHART
+  CHART-explore-49-1:
+    children: []
+    id: CHART-explore-49-1
+    meta:
+      chartId: 23
+      height: 87
+      sliceName: '[PE] Transactions table'
+      uuid: e0705997-d315-4d65-9a80-7f3f787c6ba3
+      width: 4
+    parents:
+    - ROOT_ID
+    - TABS-CUAtNfOMt6
+    - TAB-3XXKMtUwE3
+    - ROW-TUI8QKt_4O
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children: []
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Planned expenses
+    type: HEADER
+  ROOT_ID:
+    children:
+    - TABS-CUAtNfOMt6
+    id: ROOT_ID
+    type: ROOT
+  ROW-JHc0qavK3:
+    children:
+    - CHART-explore-45-1
+    id: ROW-JHc0qavK3
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-CUAtNfOMt6
+    - TAB-Zh_UzBzPs
+    type: ROW
+  ROW-iFHtjnTIf:
+    children:
+    - CHART-explore-46-1
+    - CHART-explore-49-1
+    id: ROW-iFHtjnTIf
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-CUAtNfOMt6
+    - TAB-3XXKMtUwE3
+    type: ROW
+  ROW-uYdC2ComX:
+    children:
+    - CHART-explore-48-1
+    - CHART-explore-47-1
+    id: ROW-uYdC2ComX
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - TABS-CUAtNfOMt6
+    - TAB-3XXKMtUwE3
+    type: ROW
+  TAB-3XXKMtUwE3:
+    children:
+    - ROW-uYdC2ComX
+    - ROW-iFHtjnTIf
+    id: TAB-3XXKMtUwE3
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Main
+    parents:
+    - ROOT_ID
+    - TABS-CUAtNfOMt6
+    type: TAB
+  TAB-Zh_UzBzPs:
+    children:
+    - ROW-JHc0qavK3
+    id: TAB-Zh_UzBzPs
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: History
+    parents:
+    - ROOT_ID
+    - TABS-CUAtNfOMt6
+    type: TAB
+  TABS-CUAtNfOMt6:
+    children:
+    - TAB-3XXKMtUwE3
+    - TAB-Zh_UzBzPs
+    id: TABS-CUAtNfOMt6
+    meta: {}
+    parents:
+    - ROOT_ID
+    type: TABS
+metadata:
+  chart_configuration:
+    '45':
+      id: 45
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 46
+        - 47
+        - 48
+        - 49
+    '46':
+      id: 46
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 45
+        - 47
+        - 48
+        - 49
+    '47':
+      id: 47
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 45
+        - 46
+        - 48
+        - 49
+    '49':
+      id: 49
+      crossFilters:
+        scope:
+          rootPath:
+          - ROOT_ID
+          excluded: []
+        chartsInScope:
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+  color_scheme: ''
+  refresh_frequency: 0
+  shared_label_colors:
+    "22, N\xE1jem": '#454E7C'
+    2, T-Mobile tarif: '#A1A6BD'
+    3, HVFree internet: '#5AC189'
+    "4, Svobodn\xFD p\u0159\xEDstav": '#FEC0A1'
+    6, Standashow patreon: '#8FD3E4'
+    20, Spotify premium DUO: '#FDE380'
+    21, Netflix: '#9EE5E5'
+    9, TickTick premium: '#A868B7'
+    11, YouTube Premium: '#ACE1C4'
+    13, Alza Plus: '#EFA1AA'
+    12, iCloud 50GB: '#D1C6BC'
+    "14, Veden\xED druh\xE9ho b\u011B\u017En\xE9ho \xFA\u010Dtu": '#1FA8C9'
+    "Bydlen\xED": '#1FA8C9'
+    "P\u0159edplatn\xE9": '#454E7C'
+    "Slu\u017Eby": '#5AC189'
+  color_scheme_domain: []
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  native_filter_configuration:
+  - id: NATIVE_FILTER-oVr88-Q9l
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Active
+    filterType: filter_select
+    targets:
+    - column:
+        name: active
+      datasetUuid: cecdcff3-d120-492e-b994-d1119cbf37e8
+    defaultDataMask:
+      extraFormData:
+        filters:
+        - col: active
+          op: IN
+          val:
+          - true
+      filterState:
+        validateMessage: false
+        validateStatus: false
+        label: 'TRUE'
+        value:
+        - true
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - TAB-3XXKMtUwE3
+      excluded:
+      - 22
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 46
+    - 47
+    - 49
+    tabsInScope:
+    - TAB-3XXKMtUwE3
+  - id: NATIVE_FILTER-igFcV_aez
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Category
+    filterType: filter_select
+    targets:
+    - column:
+        name: category
+      datasetUuid: cecdcff3-d120-492e-b994-d1119cbf37e8
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 46
+    - 47
+    tabsInScope: []
+  - id: NATIVE_FILTER-a3XYqOH9o
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Period
+    filterType: filter_select
+    targets:
+    - column:
+        name: period
+      datasetUuid: cecdcff3-d120-492e-b994-d1119cbf37e8
+    defaultDataMask:
+      extraFormData:
+        filters:
+        - col: period
+          op: IN
+          val:
+          - month
+          - year
+      filterState:
+        validateMessage: false
+        validateStatus: false
+        label: month, year
+        value:
+        - month
+        - year
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded:
+      - 19
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 46
+    - 47
+    - 48
+    - 49
+    tabsInScope:
+    - TAB-3XXKMtUwE3
+  - id: NATIVE_FILTER-kU4ckNmGQ
+    controlValues:
+      enableEmptyFilter: false
+    name: Date
+    filterType: filter_time
+    targets:
+    - {}
+    defaultDataMask:
+      extraFormData:
+        time_range: Last year
+      filterState:
+        value: Last year
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded:
+      - 20
+      - 21
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 46
+    - 47
+    tabsInScope: []
+  - id: NATIVE_FILTER-5nxxue-ks
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Name
+    filterType: filter_select
+    targets:
+    - column:
+        name: name
+      datasetUuid: cecdcff3-d120-492e-b994-d1119cbf37e8
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 46
+    - 47
+    tabsInScope:
+    - TAB-3XXKMtUwE3
+version: 1.0.0

@@ -1,0 +1,36 @@
+services:
+  postgres:
+    image: postgres:17.6
+    container_name: finsys-postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=aVuzY25avkqiveTkXHtdimFzitd9
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+    networks:
+      - finsys-postgres
+    ports:
+      - "5445:5432"
+    restart: unless-stopped
+
+  superset:
+      build:
+        context: superset/.
+        dockerfile: Dockerfile
+      container_name: finsys-superset
+      restart: unless-stopped
+      environment:
+        - ADMIN_USERNAME=admin
+        - ADMIN_EMAIL=admin@superset.com
+        - ADMIN_PASSWORD=admin
+      ports:
+        - '8088:8088'
+      networks:
+        - finsys-postgres
+      volumes:
+        - ./data/superset:/app/superset_home
+        - ./superset/dashboards:/app/dashboards
+
+networks:
+  finsys-postgres:
+    external: true

@@ -1,0 +1,53 @@
+slice_name: '[PE] Planned Expenses Table'
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 3__table
+  viz_type: table
+  slice_id: 46
+  query_mode: raw
+  groupby: []
+  temporal_columns_lookup:
+    date_from: true
+    date_to: true
+  all_columns:
+  - id
+  - name
+  - month_amount
+  - year_amount
+  - date_from
+  - date_to
+  - period
+  - category
+  - active
+  - description
+  percent_metrics: []
+  adhoc_filters:
+  - clause: WHERE
+    subject: updatedAt
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  order_by_cols:
+  - '["month_amount", false]'
+  row_limit: 1000
+  table_timestamp_format: smart_date
+  show_cell_bars: false
+  color_pn: false
+  column_config:
+    date_from:
+      d3TimeFormat: '%Y-%m-%d'
+    date_to:
+      d3TimeFormat: '%Y-%m-%d'
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 9
+  annotation_layers: []
+query_context: null
+cache_timeout: null
+uuid: 02fed644-94c3-4189-bc44-be669f68169b
+version: 1.0.0
+dataset_uuid: cecdcff3-d120-492e-b994-d1119cbf37e8

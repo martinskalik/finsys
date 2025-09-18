@@ -1,0 +1,49 @@
+slice_name: '[F] Table transactions aggregated'
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 1__table
+  viz_type: table
+  slice_id: 32
+  query_mode: aggregate
+  groupby:
+  - name
+  - is_outgoing
+  - type
+  - account_name
+  - category
+  temporal_columns_lookup:
+    date: true
+  metrics:
+  - amount
+  all_columns: []
+  percent_metrics: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    expressionType: SIMPLE
+    operator: TEMPORAL_RANGE
+    subject: date
+  order_by_cols: []
+  row_limit: 1000
+  order_desc: true
+  table_timestamp_format: smart_date
+  show_cell_bars: true
+  color_pn: true
+  column_config:
+    amount:
+      d3NumberFormat: ',.2f'
+      horizontalAlign: right
+      showCellBars: true
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 8
+  annotation_layers: []
+query_context: null
+cache_timeout: null
+uuid: ec0ba6e2-37fe-432d-8012-c001ebf40cea
+version: 1.0.0
+dataset_uuid: 5cdc7831-6ce0-4f72-8e85-d87c2ebae997

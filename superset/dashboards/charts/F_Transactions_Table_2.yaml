@@ -1,0 +1,51 @@
+slice_name: '[F] Transactions Table'
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 1__table
+  viz_type: table
+  slice_id: 27
+  query_mode: raw
+  groupby: []
+  temporal_columns_lookup:
+    date: true
+  all_columns:
+  - name
+  - type
+  - amount
+  - date
+  - account_name
+  - category
+  percent_metrics: []
+  adhoc_filters:
+  - clause: WHERE
+    comparator: No filter
+    datasourceWarning: false
+    expressionType: SIMPLE
+    filterOptionName: filter_dcqpt0bdish_top12b7xn6
+    isExtra: true
+    isNew: false
+    operator: TEMPORAL_RANGE
+    sqlExpression: null
+    subject: date
+  order_by_cols:
+  - '["date", false]'
+  row_limit: 1000
+  table_timestamp_format: '%Y-%m-%d'
+  page_length: 0
+  include_search: true
+  show_cell_bars: false
+  align_pn: false
+  color_pn: false
+  conditional_formatting: []
+  extra_form_data: {}
+  dashboards:
+  - 8
+  annotation_layers: []
+query_context: null
+cache_timeout: null
+uuid: 9d8140ad-c72a-484a-a3f2-6ab3995327da
+version: 1.0.0
+dataset_uuid: 5cdc7831-6ce0-4f72-8e85-d87c2ebae997

@@ -1,0 +1,1149 @@
+dashboard_title: Finance
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: false
+uuid: 1fece3a4-5277-47cc-b646-18b636c0780f
+position:
+  CHART-16hGZ8CnlN:
+    children: []
+    id: CHART-16hGZ8CnlN
+    meta:
+      chartId: 9
+      height: 43
+      sliceName: '[F] Area chart income and outcome'
+      uuid: 077e1c18-abe5-4882-97a5-c39e3dd1ce81
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-zBwZ_lnqN
+    - ROW-hikuEL3vD
+    type: CHART
+  CHART-explore-26-1:
+    children: []
+    id: CHART-explore-26-1
+    meta:
+      chartId: 1
+      height: 50
+      sliceName: '[F] Expenses donut'
+      uuid: 04bb72a6-6f93-43ad-a4f6-e146658c94f6
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-0cmoeHkCLC
+    - ROW-s-Z8SHVuN
+    type: CHART
+  CHART-explore-27-1:
+    children: []
+    id: CHART-explore-27-1
+    meta:
+      chartId: 2
+      height: 70
+      sliceName: '[F] Table transactions'
+      uuid: 9d8140ad-c72a-484a-a3f2-6ab3995327da
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-wv4-Dzrsi
+    - TABS-gTwk_i0-fw
+    - TAB-RSaz6MRbC
+    - ROW-UT0ET4WYZ
+    type: CHART
+  CHART-explore-28-1:
+    children: []
+    id: CHART-explore-28-1
+    meta:
+      chartId: 3
+      height: 50
+      sliceName: '[F] Income vs expenses'
+      uuid: b707c2b9-fa4a-4a00-8cc0-cddc90dc6820
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-0cmoeHkCLC
+    - ROW-s-Z8SHVuN
+    type: CHART
+  CHART-explore-30-1:
+    children: []
+    id: CHART-explore-30-1
+    meta:
+      chartId: 4
+      height: 31
+      sliceName: '[F] Balances'
+      uuid: a5d83c7e-722f-4718-8d6a-e8bff30c3079
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-zBwZ_lnqN
+    - ROW-NAMz16C9Q
+    type: CHART
+  CHART-explore-31-1:
+    children: []
+    id: CHART-explore-31-1
+    meta:
+      chartId: 5
+      height: 50
+      sliceName: '[F] Sum transactions table based on type'
+      uuid: 64e950e9-83be-48a5-9570-70baf895943e
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-wv4-Dzrsi
+    - TABS-gTwk_i0-fw
+    - TAB-bA58qXqH7D
+    - ROW-Lb2hIFkje
+    type: CHART
+  CHART-explore-35-1:
+    children: []
+    id: CHART-explore-35-1
+    meta:
+      chartId: 7
+      height: 50
+      sliceName: '[F] Donut categories expenses'
+      uuid: 1597f697-a18e-4169-938b-4da0500524f7
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-4uQf293u0
+    - ROW-UzUo81MGF
+    - COLUMN-JeMB6xHV4P
+    type: CHART
+  CHART-explore-38-1:
+    children: []
+    id: CHART-explore-38-1
+    meta:
+      chartId: 10
+      height: 46
+      sliceName: '[F] Bar chart difference income and outcome'
+      uuid: 142c053d-af1f-4ca3-8cff-372236677d7b
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-zBwZ_lnqN
+    - ROW-lBf4bxTfm
+    type: CHART
+  CHART-explore-39-1:
+    children: []
+    id: CHART-explore-39-1
+    meta:
+      chartId: 11
+      height: 43
+      sliceName: '[F] Bar not planned expenses in months'
+      uuid: f127a2c3-7592-413b-9b44-58dfb6a3bc6a
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-zBwZ_lnqN
+    - ROW-QkryP2FXb
+    type: CHART
+  CHART-explore-40-1:
+    children: []
+    id: CHART-explore-40-1
+    meta:
+      chartId: 12
+      height: 41
+      sliceName: '[F] Sum of transactions'
+      uuid: 1639f6eb-81f9-4faa-9b31-d066d4272af1
+      width: 4
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-0cmoeHkCLC
+    - ROW-_R6aQl5b7
+    type: CHART
+  CHART-explore-41-1:
+    children: []
+    id: CHART-explore-41-1
+    meta:
+      chartId: 13
+      height: 19
+      sliceName: '[F] Number total income'
+      uuid: 3f0e0302-efa7-4da1-91ea-89273e2b49af
+      width: 1
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-0cmoeHkCLC
+    - ROW-_R6aQl5b7
+    - COLUMN-slphy5z6Qg
+    type: CHART
+  CHART-explore-42-1:
+    children: []
+    id: CHART-explore-42-1
+    meta:
+      chartId: 14
+      height: 20
+      sliceName: '[F] Total expenses'
+      uuid: 64ead7eb-cef9-4cbd-ae69-6fa462624234
+      width: 2
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-0cmoeHkCLC
+    - ROW-_R6aQl5b7
+    - COLUMN-slphy5z6Qg
+    type: CHART
+  CHART-explore-43-1:
+    children: []
+    id: CHART-explore-43-1
+    meta:
+      chartId: 15
+      height: 50
+      sliceName: '[F] Bar invested amount'
+      uuid: 0cf83b26-c8d3-4faa-be8d-7693041be7d3
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-zBwZ_lnqN
+    - ROW-N1x7oafGo
+    type: CHART
+  CHART-explore-50-1:
+    children: []
+    id: CHART-explore-50-1
+    meta:
+      chartId: 16
+      height: 41
+      sliceName: '[F] Balances table'
+      uuid: ec4ccc9c-ea8e-4204-b23b-a7703520c6e2
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-0cmoeHkCLC
+    - ROW-_R6aQl5b7
+    - COLUMN-8PDN8hYCss
+    type: CHART
+  CHART-explore-51-1:
+    children: []
+    id: CHART-explore-51-1
+    meta:
+      chartId: 17
+      height: 50
+      sliceName: '[F] Donut income categories'
+      uuid: 2a702e45-eb91-4190-92de-01764c1b41b1
+      width: 5
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-4uQf293u0
+    - ROW-UzUo81MGF
+    - COLUMN-JeMB6xHV4P
+    type: CHART
+  CHART-explore-52-1:
+    children: []
+    id: CHART-explore-52-1
+    meta:
+      chartId: 18
+      height: 50
+      sliceName: '[F] Income categories in month'
+      uuid: 2ab7732c-70a1-4794-b799-45f34d69e83c
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-zBwZ_lnqN
+    - ROW-Hd55WK9wK
+    type: CHART
+  CHART-rrIJ4OqLXk:
+    children: []
+    id: CHART-rrIJ4OqLXk
+    meta:
+      chartId: 8
+      height: 71
+      sliceName: '[F] Table transactions categories'
+      uuid: 7eb915df-dbce-471e-a2a2-0e7772f2ec17
+      width: 6
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-4uQf293u0
+    - ROW-UzUo81MGF
+    type: CHART
+  CHART-tO5X1L2QZ9:
+    children: []
+    id: CHART-tO5X1L2QZ9
+    meta:
+      chartId: 6
+      height: 50
+      sliceName: '[F] Table transactions aggregated'
+      uuid: ec0ba6e2-37fe-432d-8012-c001ebf40cea
+      width: 8
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-wv4-Dzrsi
+    - TABS-gTwk_i0-fw
+    - TAB-bA58qXqH7D
+    - ROW-Lb2hIFkje
+    type: CHART
+  COLUMN-8PDN8hYCss:
+    children:
+    - CHART-explore-50-1
+    id: COLUMN-8PDN8hYCss
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-0cmoeHkCLC
+    - ROW-_R6aQl5b7
+    type: COLUMN
+  COLUMN-JeMB6xHV4P:
+    children:
+    - CHART-explore-35-1
+    - CHART-rrIJ4OqLXk
+    id: COLUMN-JeMB6xHV4P
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      width: 7
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-4uQf293u0
+    - ROW-UzUo81MGF
+    type: COLUMN
+  COLUMN-slphy5z6Qg:
+    children:
+    - CHART-explore-41-1
+    - CHART-explore-42-1
+    id: COLUMN-slphy5z6Qg
+    meta:
+      background: BACKGROUND_TRANSPARENT
+      width: 5
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-0cmoeHkCLC
+    - ROW-_R6aQl5b7
+    type: COLUMN
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - TABS-VY-ndvuqRy
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Finance
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-Hd55WK9wK:
+    children:
+    - CHART-explore-52-1
+    id: ROW-Hd55WK9wK
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-zBwZ_lnqN
+    type: ROW
+  ROW-Lb2hIFkje:
+    children:
+    - CHART-tO5X1L2QZ9
+    - CHART-explore-31-1
+    id: ROW-Lb2hIFkje
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-wv4-Dzrsi
+    - TABS-gTwk_i0-fw
+    - TAB-bA58qXqH7D
+    type: ROW
+  ROW-N1x7oafGo:
+    children:
+    - CHART-explore-43-1
+    id: ROW-N1x7oafGo
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-zBwZ_lnqN
+    type: ROW
+  ROW-NAMz16C9Q:
+    children:
+    - CHART-explore-30-1
+    id: ROW-NAMz16C9Q
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-zBwZ_lnqN
+    type: ROW
+  ROW-QkryP2FXb:
+    children:
+    - CHART-explore-39-1
+    id: ROW-QkryP2FXb
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-zBwZ_lnqN
+    type: ROW
+  ROW-UT0ET4WYZ:
+    children:
+    - CHART-explore-27-1
+    id: ROW-UT0ET4WYZ
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-wv4-Dzrsi
+    - TABS-gTwk_i0-fw
+    - TAB-RSaz6MRbC
+    type: ROW
+  ROW-UzUo81MGF:
+    children:
+    - COLUMN-JeMB6xHV4P
+    - CHART-explore-51-1
+    id: ROW-UzUo81MGF
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-4uQf293u0
+    type: ROW
+  ROW-_R6aQl5b7:
+    children:
+    - COLUMN-8PDN8hYCss
+    - CHART-explore-40-1
+    - COLUMN-slphy5z6Qg
+    id: ROW-_R6aQl5b7
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-0cmoeHkCLC
+    type: ROW
+  ROW-hikuEL3vD:
+    children:
+    - CHART-16hGZ8CnlN
+    id: ROW-hikuEL3vD
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-zBwZ_lnqN
+    type: ROW
+  ROW-lBf4bxTfm:
+    children:
+    - CHART-explore-38-1
+    id: ROW-lBf4bxTfm
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-zBwZ_lnqN
+    type: ROW
+  ROW-s-Z8SHVuN:
+    children:
+    - CHART-explore-28-1
+    - CHART-explore-26-1
+    id: ROW-s-Z8SHVuN
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-0cmoeHkCLC
+    type: ROW
+  TAB-0cmoeHkCLC:
+    children:
+    - ROW-_R6aQl5b7
+    - ROW-s-Z8SHVuN
+    id: TAB-0cmoeHkCLC
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Dashboard
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    type: TAB
+  TAB-4uQf293u0:
+    children:
+    - ROW-UzUo81MGF
+    id: TAB-4uQf293u0
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Categories
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    type: TAB
+  TAB-RSaz6MRbC:
+    children:
+    - ROW-UT0ET4WYZ
+    id: TAB-RSaz6MRbC
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Dates
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-wv4-Dzrsi
+    - TABS-gTwk_i0-fw
+    type: TAB
+  TAB-bA58qXqH7D:
+    children:
+    - ROW-Lb2hIFkje
+    id: TAB-bA58qXqH7D
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Aggregate
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-wv4-Dzrsi
+    - TABS-gTwk_i0-fw
+    type: TAB
+  TAB-wv4-Dzrsi:
+    children:
+    - TABS-gTwk_i0-fw
+    id: TAB-wv4-Dzrsi
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Transactions
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    type: TAB
+  TAB-zBwZ_lnqN:
+    children:
+    - ROW-NAMz16C9Q
+    - ROW-hikuEL3vD
+    - ROW-lBf4bxTfm
+    - ROW-QkryP2FXb
+    - ROW-N1x7oafGo
+    - ROW-Hd55WK9wK
+    id: TAB-zBwZ_lnqN
+    meta:
+      defaultText: Tab title
+      placeholder: Tab title
+      text: Trends
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    type: TAB
+  TABS-VY-ndvuqRy:
+    children:
+    - TAB-0cmoeHkCLC
+    - TAB-wv4-Dzrsi
+    - TAB-4uQf293u0
+    - TAB-zBwZ_lnqN
+    id: TABS-VY-ndvuqRy
+    meta: {}
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: TABS
+  TABS-gTwk_i0-fw:
+    children:
+    - TAB-bA58qXqH7D
+    - TAB-RSaz6MRbC
+    id: TABS-gTwk_i0-fw
+    meta: {}
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - TABS-VY-ndvuqRy
+    - TAB-wv4-Dzrsi
+    type: TABS
+metadata:
+  chart_configuration:
+    '1':
+      id: 1
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 12
+        - 13
+        - 14
+        - 21
+        - 22
+    '2':
+      id: 2
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 12
+        - 13
+        - 14
+        - 21
+        - 22
+    '3':
+      id: 3
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 5
+        - 6
+        - 7
+        - 8
+        - 12
+        - 13
+        - 14
+        - 21
+        - 22
+    '4':
+      id: 4
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 12
+        - 13
+        - 14
+        - 21
+        - 22
+    '5':
+      id: 5
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 6
+        - 7
+        - 8
+        - 12
+        - 13
+        - 14
+        - 21
+        - 22
+    '6':
+      id: 6
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 7
+        - 8
+        - 12
+        - 13
+        - 14
+        - 21
+        - 22
+    '7':
+      id: 7
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 8
+        - 12
+        - 13
+        - 14
+        - 21
+        - 22
+    '8':
+      id: 8
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 12
+        - 13
+        - 14
+        - 21
+        - 22
+    '9':
+      id: 9
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 12
+        - 13
+        - 14
+        - 21
+        - 22
+    '10':
+      id: 10
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 12
+        - 13
+        - 14
+        - 21
+        - 22
+    '11':
+      id: 11
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 12
+        - 13
+        - 14
+        - 21
+        - 22
+    '15':
+      id: 15
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 12
+        - 13
+        - 14
+        - 21
+        - 22
+    '21':
+      id: 21
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 12
+        - 13
+        - 14
+        - 22
+    '22':
+      id: 22
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 12
+        - 13
+        - 14
+        - 21
+    '23':
+      id: 23
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 1
+        - 2
+        - 3
+        - 5
+        - 6
+        - 7
+        - 8
+        - 12
+        - 13
+        - 14
+        - 21
+        - 22
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - TAB-0cmoeHkCLC
+      - TAB-eQBS2KpQK
+      - TAB-4uQf293u0
+      - TAB-wv4-Dzrsi
+      excluded:
+      - 28
+    chartsInScope:
+    - 1
+    - 2
+    - 3
+    - 5
+    - 6
+    - 7
+    - 8
+    - 12
+    - 13
+    - 14
+    - 21
+    - 22
+  color_scheme: ''
+  refresh_frequency: 0
+  shared_label_colors:
+    Incoming: '#5AC189'
+    Outcoming: '#FCC700'
+    Planned Expense: '#666666'
+    Expense: '#3CCCCB'
+    Salary: '#A868B7'
+    Freelance: '#8FD3E4'
+    Housing: '#A38F79'
+    Food: '#ACE1C4'
+    Utilities: '#B2B2B2'
+    Transport: '#FDE380'
+    Health: '#9EE5E5'
+    Entertainment: '#A1A6BD'
+    Other: '#D3B3DA'
+  color_scheme_domain: []
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  native_filter_configuration:
+  - id: NATIVE_FILTER-ue-R6DiHB
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Transaction types
+    filterType: filter_select
+    targets:
+    - column:
+        name: type
+      datasetUuid: 5cdc7831-6ce0-4f72-8e85-d87c2ebae997
+    defaultDataMask:
+      extraFormData:
+        filters:
+        - col: type
+          op: IN
+          val:
+          - Income
+          - Expense
+          - Planned Expense
+      filterState:
+        validateMessage: false
+        validateStatus: false
+        label: Income, Expense, Planned Expense
+        value:
+        - Income
+        - Expense
+        - Planned Expense
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - TAB-0cmoeHkCLC
+      - TAB-4uQf293u0
+      - TAB-zBwZ_lnqN
+      - TAB-wv4-Dzrsi
+      excluded:
+      - 4
+      - 15
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 1
+    - 2
+    - 3
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 21
+    - 22
+    - 23
+    tabsInScope:
+    - TAB-0cmoeHkCLC
+    - TAB-4uQf293u0
+    - TAB-RSaz6MRbC
+    - TAB-bA58qXqH7D
+    - TAB-zBwZ_lnqN
+  - id: NATIVE_FILTER-234KcuWM8
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Year
+    filterType: filter_select
+    targets:
+    - column:
+        name: year
+      datasetUuid: 5cdc7831-6ce0-4f72-8e85-d87c2ebae997
+    defaultDataMask:
+      extraFormData:
+        filters:
+        - col: year
+          op: IN
+          val:
+          - 2025
+      filterState:
+        validateMessage: false
+        validateStatus: false
+        label: '2025'
+        value:
+        - 2025
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - TAB-0cmoeHkCLC
+      - TAB-4uQf293u0
+      - TAB-eQBS2KpQK
+      - TAB-zBwZ_lnqN
+      - TAB-wv4-Dzrsi
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 26
+    - 27
+    - 28
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+    - 50
+    - 51
+    tabsInScope:
+    - TAB-0cmoeHkCLC
+    - TAB-4uQf293u0
+    - TAB-RSaz6MRbC
+    - TAB-bA58qXqH7D
+    - TAB-eQBS2KpQK
+    - TAB-zBwZ_lnqN
+  - id: NATIVE_FILTER-2yA7NwBFL
+    controlValues:
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: Quarter
+    filterType: filter_select
+    targets:
+    - column:
+        name: quarter
+      datasetUuid: 5cdc7831-6ce0-4f72-8e85-d87c2ebae997
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds:
+    - NATIVE_FILTER-234KcuWM8
+    scope:
+      rootPath:
+      - TAB-0cmoeHkCLC
+      - TAB-4uQf293u0
+      - TAB-eQBS2KpQK
+      - TAB-wv4-Dzrsi
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 26
+    - 27
+    - 28
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+    tabsInScope:
+    - TAB-0cmoeHkCLC
+    - TAB-4uQf293u0
+    - TAB-RSaz6MRbC
+    - TAB-bA58qXqH7D
+    - TAB-eQBS2KpQK
+    - TAB-zBwZ_lnqN
+  - id: NATIVE_FILTER-jzXb-HQWC
+    controlValues:
+      sortAscending: false
+      enableEmptyFilter: false
+      defaultToFirstItem: false
+      multiSelect: true
+      searchAllOptions: false
+      inverseSelection: false
+    name: YearMonth
+    filterType: filter_select
+    targets:
+    - column:
+        name: month_year
+      datasetUuid: 5cdc7831-6ce0-4f72-8e85-d87c2ebae997
+    defaultDataMask:
+      extraFormData: {}
+      filterState: {}
+      ownState: {}
+    cascadeParentIds: []
+    scope:
+      rootPath:
+      - TAB-0cmoeHkCLC
+      - TAB-eQBS2KpQK
+      - TAB-4uQf293u0
+      - TAB-wv4-Dzrsi
+      excluded: []
+    type: NATIVE_FILTER
+    description: ''
+    chartsInScope:
+    - 26
+    - 27
+    - 28
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 40
+    - 41
+    - 42
+    - 44
+    - 50
+    tabsInScope:
+    - TAB-0cmoeHkCLC
+    - TAB-4uQf293u0
+    - TAB-RSaz6MRbC
+    - TAB-bA58qXqH7D
+    - TAB-eQBS2KpQK
+version: 1.0.0
