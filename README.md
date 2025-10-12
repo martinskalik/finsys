@@ -23,6 +23,8 @@ FinSys is divided into 2 separate parts:
 1. Import Wizard (SvelteKit web application)
 2. Data visualization (Superset)
 
+![App architecture](misc/architecture.jpg)
+
 ![Superset screenshot](misc/screenshots/superset_finance_dashboard.png)
 ![FinSys Wizard screenshot](misc/screenshots/wizard_add-transactions.png)
 
@@ -41,6 +43,9 @@ So I created my own finance system. I love the solidity and correctness of data 
 
 
 ## Getting Started
+
+> [!TIP]
+> If you gonna have any problem starting the project, feel free to open issue and I will provide you an assitance 🙂
 
 > [!NOTE]
 > Requirements:
@@ -100,6 +105,9 @@ Create your accounts (wallets) in `accounts` table.
 Next thing you will have to input initial balances of accounts. Create row in `account_balances` table for each account. Put first day of month you want to import - e.g. `2025-09-01` if you are going to import September.
 
 ## Functionalities
+
+Controlling mechanism. Cash audit - are you spending money without even knowing it?
+
 ### Aggregating multiple bank/cash accounts
 ### Import transactions from CSV
 ### Transactions-Balance check
@@ -112,6 +120,56 @@ Dashboard
 Mapping transactions - You can see how much you spend on this subscriptions
 ### Automapping transfers between accounts
 ### Exploring long trends
+
+
+## Transaction procedures (workarounds)
+
+### Solve account discrepancy
+While doing month import. You add every transaction, end balance but still have discrepancy.
+
+Create deficit transaction.
+
+```
+-30 expense
+```
+
+### Withdraw cash from ATM
+You are taking $50 from ATM.
+
+```
+Cash:
+  +50 transfer
+Bank:
+  -50 transfer
+```
+
+### Deposite cash to ATM
+You are putting $30 into bank account via ATM.
+
+```
+Cash:
+  -30 transfer
+Bank:
+  +30 transfer
+```
+
+### Spliting expense between people accross accounts
+You were in restaurant with your friend. You paid for both $40 by card. Your friend gived you $20 in cash.
+
+Now you have $40 expense and $20 income. Defacto you spent only $20 with no income.
+
+Bank account:
+Imported from CSV: `-40 expense`
+Decrease transaction amount to `-20`
+And add second transaction
+
+```
+Bank:
+  -20 expense
+  -20 transfer
+Cash:
+  +20 transfer
+```
 
 
 ## Roadmap
