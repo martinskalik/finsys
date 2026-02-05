@@ -7,9 +7,15 @@ export async function saveImportData() {
   const state = importStore.getState()
 
   const transactions: NewTransaction[] = state.accounts.flatMap(a => {
-    return a.transactions.map(t => (
-      { ...t, accountId: a.id, amount: t.amount.toFixed(2), date: getDateString(t.date) }
-    ))
+    return a.transactions.map(t => ({
+      ...t,
+      accountId: a.id,
+      amount: t.amount.toFixed(2),
+      date: getDateString(t.date),
+      plannedExpenseId: t.plannedExpenseId
+        ? Number(t.plannedExpenseId)
+        : undefined
+    }))
   })
 
   const accountBalances: NewAccountBalance[] = state.accounts.flatMap(a => {
