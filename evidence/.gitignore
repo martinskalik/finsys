@@ -1,0 +1,7 @@
+node_modules
+/build
+/.evidence
+/static/data
+# Secrets: DB credentials live here, keep them out of git
+sources/**/connection.options.yaml
+.env

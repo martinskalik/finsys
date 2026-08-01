@@ -1,0 +1,24 @@
+{
+  "name": "finsys-evidence",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "sources": "evidence sources",
+    "dev": "evidence dev --open /",
+    "build": "evidence build",
+    "preview": "evidence preview"
+  },
+  "dependencies": {
+    "@evidence-dev/core-components": "latest",
+    "@evidence-dev/evidence": "latest",
+    "@evidence-dev/postgres": "latest"
+  },
+  "engines": {
+    "npm": ">=7"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "autoprefixer": "^10.5.2"
+  }
+}
